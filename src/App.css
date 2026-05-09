@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111827;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-card {
+  background-color: #1f2937;
+  font-size: 30px;
+  width: 400px;
+  
+  padding: 40px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.letter {
+  font-size: 80px;
+
+  font-weight: bold;
+
+  color: #60a5fa;
+
+  margin: 20px 0;
+}
+
+.timer {
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 30px;
+
+  margin-top: 10px;
+}
+
+.object {
+  margin: 10px 0;
+
+  font-size: 35px;
+}
+
+input {
+  width: 80%;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  outline: none;
+
+  font-size: 16px;
+
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+
+  margin: 10px 5px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: #2563eb;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:disabled {
+  background-color: gray;
+
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.success {
+  color: #22c55e;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.rules-box {
+  text-align: left;
+
+  background-color: #111827;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  margin: 20px 0;
+}
+
+.rules-box ul {
+  padding-left: 20px;
+}
+
+.rules-box li {
+  margin-bottom: 10px;
+
+  line-height: 1.5;
+}
+.timer {
+  margin: 20px 0;
+
+  background-color: #111827;
+
+  padding: 15px;
+
+  border-radius: 14px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  border: 2px solid #2563eb;
+}
+
+.timer-label {
+  color: #93c5fd;
+}
+
+.timer-value {
+  color: #facc15;
+
+  font-size: 30px;
+}
+
+.credit {
+  position: fixed;
+
+  bottom: 15px;
+
+  right: 20px;
+
+  font-size: 14px;
+
+  color: #9ca3af;
+
+  opacity: 0.8;
+
+  letter-spacing: 1px;
+}
+
+.start-button {
+  font-size: 30px;
+}
+
+.game-over-box {
+  margin-top: 25px;
+
+  padding: 20px;
+
+  background-color: #111827;
+
+  border-radius: 15px;
+
+  border: 2px solid #ef4444;
+}
+
+.game-over-box h2 {
+  color: #ef4444;
+
+  margin-bottom: 15px;
+}
+
+.game-over-box p {
+  font-size: 18px;
+
+  margin: 10px 0;
+}
+
