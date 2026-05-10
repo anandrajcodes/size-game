@@ -189,6 +189,17 @@ function App() {
               </li>
             </ul>
           </div>
+          <div className="rules-box">
+            <h2>Rules</h2>
+
+            <ul>
+              <li>
+               More Features (like - Leaderboard , feedback) coming soon.
+              Stay Tuned
+              </li>
+
+            </ul>
+          </div>
 
           <button
             className="start-button"
